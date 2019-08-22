@@ -1,0 +1,11 @@
+<div class="sign-up">
+  <h2>Sign Up</h2>
+  <div>
+    <input type="email" [(ngModel)]="user.email" placeholder="Email Address" id="email" required><br>
+    <input type="password" [(ngModel)]="user.password" placeholder="Password" id="password" required>
+  </div>
+
+  <div>
+    <button (click)="Register()" id="register-button">Register</button>
+  </div>
+</div>

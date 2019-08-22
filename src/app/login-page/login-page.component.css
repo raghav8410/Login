@@ -1,0 +1,26 @@
+.login-page{
+    text-align: center;
+}
+
+#email{
+    padding: 2px;
+    margin: 5px;
+}
+
+#password{
+    padding: 2px;
+    margin: 5px;
+}
+
+#login-button{
+    margin: 10px;
+}
+
+a{
+    color: #1c94e0;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
