@@ -24,7 +24,8 @@ export class LoginPageComponent implements OnInit {
     this.users = this._userService.getUsers();
   }
 
-  login(){
+  Login(){
+
     this.users.forEach(eachObj => {
       if(eachObj.email === this.user.email){
         this.loggedIn = true;
@@ -36,13 +37,20 @@ export class LoginPageComponent implements OnInit {
     });
 
     if(this.loggedIn == true && this.successful == false){
-      console.log("wrong password");
+      alert("wrong password");
     }
 
-    if(!this.loggedIn){
-      console.log("Register now");
+    if(this.loggedIn == false){
+      alert("Register now");
     }
+
+    
+    this.loggedIn = false;
+    this.successful = false;
 
   }
 
+  Register(){
+    this.router.navigate(['/sign-up']);
+  }
 }

@@ -7,7 +7,7 @@ import { SuccessfulPageComponent } from './successful-page/successful-page.compo
 
 const routes: Routes = [
   { path: '', component: LoginPageComponent},
-  // { path: 'login', component: LoginPageComponent},
+  { path: 'login', component: LoginPageComponent},
   { path: 'sign-up', component: SignupPageComponent},
   { path: 'success', component: SuccessfulPageComponent},
   { path: '**', component:PageNotFoundComponent, pathMatch: 'full' }

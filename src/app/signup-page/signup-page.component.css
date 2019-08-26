@@ -2,17 +2,11 @@
     text-align: center;
 }
 
-#email{
-    margin: 5px;
+input{
+    margin: 8px;
     padding: 2px;
 }
 
-#password{
-    margin: 5px;
-    padding: 2px;
-}
-
-#register-button{
-    margin: 10px;
-    padding: 2px;
+button{
+    margin-top: 10px;
 }

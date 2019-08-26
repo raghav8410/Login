@@ -11,9 +11,9 @@ export class UsersService {
   private url="/assets/data/users.json";
 
   public registeredUser = [
-    {"email": "abc@gmail.com", "password": "12345"},
-    {"email": "xyz@gmail.com", "password": "12345"},
-    {"email": "pqr@gmail.com", "password": "12345"}
+    {"firstName": "","lastName": "","email": "abc@gmail.com", "password": "Raghav@1708"},
+    {"firstName": "","lastName": "","email": "abc1@gmail.com", "password": "Raghav@1708"},
+    {"firstName": "","lastName": "","email": "abc2@gmail.com", "password": "Raghav@1708"}
   ]
 
   getUsers(){
